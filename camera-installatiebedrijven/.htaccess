@@ -1,0 +1,17 @@
+RewriteEngine On    # Turn on the rewriting engine
+RewriteRule    ^home/?$    index.php    [NC,L]
+RewriteRule    ^login/?$    login.php    [NC,L]
+RewriteRule    ^loguit/?$    loguit.php    [NC,L]
+RewriteRule    ^aanmelden/?$    aanmelden.php    [NC,L]
+RewriteRule    ^admin/?$    admin.php    [NC,L]
+RewriteRule    ^account/?$    account.php    [NC,L]
+RewriteRule    ^bedrijven/?$    bedrijven.php    [NC,L]
+RewriteRule    ^contact/?$    contact.php    [NC,L]
+RewriteRule    ^nieuws/?$    nieuws.php    [NC,L]
+RewriteRule    ^nieuws-bericht/?$    nieuws-bericht.php    [NC,L]
+RewriteRule    ^offerte/?$    offerte.php    [NC,L]
+RewriteRule    ^voorwaarden/?$    voorwaarden.php    [NC,L]
+RewriteRule    ^wachtwoordwijzigen/?$    ww_change.php    [NC,L]
+RewriteRule    ^geactiveerd/?$    verify.php    [NC,L]
+RewriteRule    ^bedrijf/?$    detail.php    [NC,L]
+
